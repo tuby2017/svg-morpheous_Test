@@ -1,0 +1,18 @@
+https://stackoverflow.com/questions/25849216/how-to-make-vertical-auto-scrolling-image-inside-div
+
+p5play (sprite)
+p5 mouse pointer trails
+glfx.js =http://evanw.github.io/glfx.js/docs/
+https://javascriptexamples.info/
+p5gif https://gist.github.com/antiboredom/129fd2311dec0046603e
+resize https://gist.github.com/gncgnc/fc645b8db00ec43d43fecef37d58df73
+dancer.js
+
+http://purin.co/Experiments-with-P5-js
+jeromeetienne/threex.cubecamera
+forresto/sketch
+ykob/sketch-threejs
+https://stemkoski.github.io/Three.js/#hello-world
+https://codemyui.com/
+https://ariya.io/2012/03/underwater-effect-with-html5-canvas
+http://madebyevan.com/webgl-water/

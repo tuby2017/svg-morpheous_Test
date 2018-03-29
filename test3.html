@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!--
+<link rel="stylesheet" href="demo.css"/>
+-->
+  <title>Demo: Object</title>
+  <style type="text/css">
+</style>
+  <script type="text/javascript" src="lib/svg-morpheus.js"></script>
+</head>
+<body>
+<!--
+  <iframe height="200" width="500" src="x-order.svg" id="icon"></iframe>
+-->
+  <object data="x-order.svg" type="image/svg+xml" id="icon"></object>
+<script>
+'use strict';
+
+window.onload = function () {
+      var ids = [1,1,2,3,4,5];
+//      var ids = ['0','1','2','3','4','5','6','7'];
+      var currentId = 0;
+	var last_element = ids[ids.length];
+
+	var intv = 570;
+    var myIcons = new SVGMorpheus('#icon',{duration: intv/2,rotation: 'none',easing:'cubic-in-out'});
+
+    setInterval(function() {
+		if (currentId <= ids.length){
+			currentId++;
+			if (currentId == ids.length){
+			currentId = 0}
+}
+		myIcons.to(ids[currentId]);
+
+
+}, intv);
+
+};
+</script>
+</body>
+</html>

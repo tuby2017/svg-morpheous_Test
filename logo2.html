@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>SVG  Morpheus example</title>
+      <script type="text/javascript" src="lib/svg-morpheus.js"></script>
+<style>
+      #results {
+        width: 850px;
+        height: 850px;
+      }
+    </style>
+</head>
+<body>
+    <div id="results">
+      <svg id="icons" viewBox="0 0 500 500" style="background-color:#ffffff00" version="1.1"
+        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve"
+      >
+      <g id="arch" style="display:none">
+
+		  <path id="svg_2"
+		  d="M371.14 34.434zM83.81-.375c-7.397 18.134-11.858 29.997-20.093 47.593 5.049 5.352 11.246 11.584 21.311 18.624-10.82-4.453-18.2-8.924-23.717-13.562C50.772 74.272 34.259 105.6.75 165.81c26.338-15.2 46.753-24.58 65.78-28.15a48.312 48.312 0 0 1-1.25-11.28l.031-.85c.418-16.87 9.195-29.845 19.593-28.964s18.478 15.284 18.058 32.154c-.07 3.18-.43 6.23-1.06 9.06 18.82 3.68 39.02 13.03 65 28.03-5.12-9.43-9.7-17.93-14.06-26.03-6.88-5.33-14.05-12.27-28.69-19.78 10.06 2.62 17.26 5.63 22.88 9-44.4-82.668-47.993-93.651-63.223-129.37l.001-.005z" fill="#1793D1"/>
+		</g>
+		
+	<g id="manjaro" style="display:none">
+<!--
+    <g fill="#35bf5c" fill-rule="evenodd" stroke-dasharray="21.222 21.222" stroke-linecap="round" stroke-width="7.074">
+-->
+        <path d="M141.457-.01h58.535v200h-58.535zM70.72 70.72h58.535v129.27H70.72zM-.005-.01H58.53v200H-.005z M129.26-.01v58.534H20.763V-.01z" fill="#35bf5c"/>
+<!--        <path d="M129.26-.01v58.534H20.763V-.01z"/>
+
+    </g>
+-->
+	</g>
+        </svg>
+    </div>
+    <script>
+      var ids = ['arch', 'manjaro'];
+      var currentId = 0
+      var myIcons = new SVGMorpheus('#icons',{rotation: 'random',easing:'elastic-in'});
+        setInterval(function() {
+        var thisId = currentId === 1 ? 0 : 1
+        currentId = thisId;
+        myIcons.to(ids[currentId], {duration: 1200});
+      }, 2500);
+    </script>
+</body>
+</html>

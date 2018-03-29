@@ -1,0 +1,38 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg viewBox="0 0 500 500" style="background-color:#ffffff00" version="1.1"
+  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve"
+>
+ <g id="0" stlye="display:none">
+  <title>Layer 1</title>
+  <ellipse filter="url(#svg_1_blur)" ry="19.5" rx="19" id="svg_1" cy="75.550003" cx="104.5" stroke-width="1.5" stroke="#849854" fill="#729C62"/>
+ </g>
+ <g id="1" stlye="display:none">
+  <title>Layer 1</title>
+  <ellipse transform="rotate(-26, 202.5, 181.549)" filter="url(#svg_1_blur)" ry="34.499999" rx="19" id="svg_1" cy="181.54941" cx="202.5" stroke-width="1.5" stroke="#849854" fill="#729C62"/>
+ </g>
+ <g id="2" stlye="display:none">
+  <title>Layer 1</title>
+  <ellipse transform="rotate(-26, 255.52, 270.945)" filter="url(#svg_1_blur)" ry="19.056444" rx="31.516962" id="svg_1" cy="270.943819" cx="255.521787" stroke-width="1.5" stroke="#849854" fill="#729C62"/>
+ </g>
+ <g id="3" stlye="display:none">
+  <title>Layer 1</title>
+  <ellipse transform="rotate(19, 262.863, 272.405)" filter="url(#svg_1_blur)" ry="19.056444" rx="32.935213" id="svg_1" cy="272.405495" cx="262.862976" stroke-width="1.5" stroke="#849854" fill="#729C62"/>
+ </g>
+ <g id="4" stlye="display:none">
+  <title>Layer 1</title>
+  <ellipse transform="rotate(19, 299.212, 249.01)" filter="url(#svg_1_blur)" ry="22.785375" rx="24" id="svg_1" cy="249.009436" cx="299.211584" stroke-width="1.5" stroke="#849854" fill="#729C62"/>
+ </g>
+ <g id="5" stlye="display:none">
+  <title>Layer 1</title>
+  <ellipse filter="url(#svg_2_blur)" transform="rotate(19, 350.13, 253.509)" ry="18.305342" rx="18.66805" id="svg_2" cy="253.508992" cx="350.129968" stroke-width="1.5" stroke="#849854" fill="#729C62"/>
+ </g>
+ <g id="6" stlye="display:none">
+  <title>Layer 1</title>
+  <ellipse filter="url(#svg_2_blur)" transform="rotate(19, 429.13, 293.509)" ry="18.305342" rx="18.66805" id="svg_2" cy="293.508992" cx="429.129968" stroke-width="1.5" stroke="#849854" fill="#729C62"/>
+ </g>
+ <g id="7" stlye="display:none">
+  <title>Layer 1</title>
+  <ellipse filter="url(#svg_2_blur)" transform="rotate(19, 442.13, 301.509)" ry="18.305342" rx="18.66805" id="svg_2" cy="301.508992" cx="442.129968" stroke-width="1.5" stroke="#849854" fill="#729C62"/>
+ </g>
+</svg>

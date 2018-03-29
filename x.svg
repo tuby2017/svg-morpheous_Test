@@ -1,0 +1,25 @@
+<?xml version="1.0" standalone="no"?>
+<!-- The icon set is based on Material Design icons by Google (https://github.com/google/material-design-icons) -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg viewBox="0 0 500 500" style="background-color:#000" version="1.1"
+  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve"
+>
+ <g id="0" stlye="display:none">
+  <title>Layer 1</title>
+  <rect id="svg_1" height="83" width="485.000013" y="87.349863" x="24.5" stroke-width="1.5" stroke="#000" fill="#7B572D"/>
+  <rect id="svg_2" height="31" width="115" y="93.350006" x="65.5" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="#ffffff"/>
+  <rect id="svg_3" height="29" width="105" y="93.350006" x="299.5" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="#ffffff"/>
+ </g>
+ <g id="1" stlye="display:none">
+  <title>Layer 1</title>
+  <rect id="svg_1" height="83" width="288.000008" y="109.349863" x="232.5" stroke-width="1.5" stroke="#000" fill="#999999"/>
+  <rect id="svg_2" height="31" width="64" y="125.350006" x="236.5" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="#ffffff"/>
+  <rect id="svg_3" height="29" width="64" y="125.350006" x="382.5" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="#ffffff"/>
+ </g>
+ <g id="2" stlye="display:none">
+  <title>Layer 1</title>
+  <rect id="svg_1" height="83" width="485.000013" y="66.349863" x="29.5" stroke-width="1.5" stroke="#000" fill="#B8874D"/>
+  <rect id="svg_2" height="31" width="115" y="93.350006" x="54.5" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="#ffffff"/>
+  <rect id="svg_3" height="29" width="105" y="93.350006" x="286.5" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="#ffffff"/>
+ </g>
+</svg>

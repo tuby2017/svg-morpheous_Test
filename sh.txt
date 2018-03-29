@@ -1,0 +1,76 @@
+http://www.svgminify.com/
+https://www.ofoct.com/image-converter/svg-optimizer.html
+http://pngtosvg.com/
+
+alias mpd='mousepad'
+rename "e.svg" "e(0).svg" *.svg
+rm *.svg && cp ../*.svg .
+
+vvvv# make gif outof svg
+convert -loop 0 -delay 25 *.svg out.gif
+	#keep line and remove other
+for file in *.svg;do sed -n -i '10,15p' $file;done
+	#remove range of line and last line
+for i in *.svg;do sed -i '1,9d;$d' ${i};done
+	#add id and style
+count=1;for i in *.svg;do sed -i 's/<g>/<g id="'"$count"'" stlye="display:none">/g' "$i";(( count++ ));done
+
+ls|wc -l
+#copy index for demo-*.js
+for i in {1..5};do printf "'$i'":"'$i'"',';done|xsel -b
+
+
+for i in *.svg;do cat $i |head -1;done
+cat *.svg >> x.svg
+
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg viewBox="0 0 500 500" style="background-color:#ffffff00" version="1.1"
+  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve"
+>
+
+  <g id="backup" style="display:none">
+</g>
+
+</svg>
+
+	# grep content in and after path
+grep -ho '<path.*>\|^--.*' ip.html
+	# ++ all file in dir cp to new dir
+for file in *.svg; do
+   grep -ho '<path.*>\|^--.*' < "$file" > all/"$file"
+done
+	#change stuff
+count=0;for i in *.svg;do sed -i 's/<path/<g id="'"$count"'" stlye="display:none"><path/g' "$i";(( count++ ));done
+	# get files w/ more than one id= 
+grep -Po "id=" *|uniq -d|cut -d: -f1
+	# mv file list on txt file to dir
+cat 2x.txt | xargs mv -t 2/
+	#index
+'0':'0','1':'1','2':'2','3':'3','4':'4','5':'5','6':'6','7':'7','8':'8','9':'9','10':'10','11':'11','12':'12','13':'13','14':'14','15':'15','16':'16','17':'17','18':'18','19':'19','20':'20','21':'21','22':'22','23':'23','24':'24','25':'25','26':'26','27':'27','28':'28','29':'29','30':'30','31':'31','32':'32','33':'33','34':'34','35':'35','36':'36','37':'37','38':'38','39':'39','40':'40','41':'41','42':'42','43':'43','44':'44','45':'45','46':'46','47':'47','48':'48','49':'49','50':'50','51':'51','52':'52','53':'53','54':'54','55':'55','56':'56','57':'57','58':'58'
+	#change fill color
+sed 's/\(.*fill=\)[^ ]*\( .*\)/\1"#fff"\2/' x2-icon.svg
+16 26 43
+51 evenodd
+
+	#pngtosvg cleanup
+cp /home/s/Public/mine/js-animate/demos/head.txt z.svg
+for file in image*.svg; do
+   grep -ho '<g.*/g>\|^--.*' < "$file" > "x$file"
+done
+count=0;for i in x*.svg;do sed -i 's/id="svgg"/id="'"$count"'" stlye="display:none"/g' "$i";(( count++ ));done
+cat x*svg >> z.svg; echo "</svg>" >> z.svg
+
+	# https://discuss.pixls.us/t/how-can-i-interpolate-or-crossfade-a-series-of-images/1806
+$ gmic -w -fade_files IMG\*.jpg,30,0,-1,1,output.png
+
+$ gmic -w -fade_files source-images-1080/*.jpg,7,0,-1,1,gmic-7/nl1.jpg
+$ ffmpeg -r 60 -pattern_type glob -i 'gmic-7/*.jpg' -qscale 1 nl1-gmic
+
+$ gmic -w -morph_files input_images\*.jpg,20,0.1,4,0,-1,1,output.png
+or//$ gmic -w --morph_video input_video.avi,20,0.1,4,0,-1,1,output.png
+
+https://askubuntu.com/questions/648603/create-animated-gif-from-mp4-video-via-command-line
+use ffmpeg and imagemagick
+$ffmpeg -i input.mp4 -r 10 -f image2pipe -vcodec ppm - | \
+  convert -delay 10 -layers Optimize -loop 0 - output.gif

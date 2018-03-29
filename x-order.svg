@@ -1,0 +1,36 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg viewBox="0 0 500 500" style="background-color:#ffffff00" version="1.1"
+  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve"
+>
+ <g id="1" stlye="display:none">
+  <title>Layer 1</title>
+  <rect id="svg_1" height="111" width="125" y="96.050003" x="160.5" stroke-width="1.5" stroke="#000" fill="#2D6862"/>
+ </g>
+ <g id="2" stlye="display:none">
+  <title>Layer 1</title>
+  <rect id="svg_1" height="111" width="125" y="116.050003" x="180.5" stroke-width="1.5" stroke="#000" fill="#9A8AAB"/>
+  <rect id="svg_2" height="111" width="125" y="81.050003" x="136.5" stroke-width="1.5" stroke="#000" fill="#2D6862"/>
+ </g>
+ <g id="3" stlye="display:none">
+  <title>Layer 1</title>
+  <rect id="svg_1" height="111" width="125" y="104.050003" x="226.5" stroke-width="1.5" stroke="#000" fill="#84D3DB"/>
+  <rect id="svg_2" height="111" width="125" y="151.050003" x="128.5" stroke-width="1.5" stroke="#000" fill="#2D6862"/>
+  <rect id="svg_3" height="111" width="125" y="29.050003" x="148.5" stroke-width="1.5" stroke="#000" fill="#9A8AAB"/>
+ </g>
+ <g id="4" stlye="display:none">
+  <title>Layer 1</title>
+  <rect id="svg_1" height="111" width="125" y="125.050003" x="246.5" stroke-width="1.5" stroke="#000" fill="#A4FFFF"/>
+  <rect id="svg_2" height="111" width="125" y="148.050003" x="131.5" stroke-width="1.5" stroke="#000" fill="#2D6862"/>
+  <rect id="svg_3" height="111" width="125" y="28.050003" x="157.5" stroke-width="1.5" stroke="#000" fill="#9A8AAB"/>
+  <rect id="svg_4" height="111" width="125" y="102.050003" x="217.5" stroke-width="1.5" stroke="#000" fill="#84D3DB"/>
+ </g>
+ <g id="5" stlye="display:none">
+  <title>Layer 1</title>
+  <rect id="svg_1" height="111" width="125" y="144.050003" x="283.5" stroke-width="1.5" stroke="#000" fill="#CC7C65"/>
+  <rect id="svg_2" height="111" width="125" y="134.050003" x="152.5" stroke-width="1.5" stroke="#000" fill="#2D6862"/>
+  <rect id="svg_3" height="111" width="125" y="35.050003" x="175.5" stroke-width="1.5" stroke="#000" fill="#9A8AAB"/>
+  <rect id="svg_4" height="111" width="125" y="61.050003" x="107.5" stroke-width="1.5" stroke="#000" fill="#84D3DB"/>
+  <rect id="svg_5" height="111" width="125" y="125.050003" x="246.5" stroke-width="1.5" stroke="#000" fill="#A4FFFF"/>
+ </g>
+</svg>
